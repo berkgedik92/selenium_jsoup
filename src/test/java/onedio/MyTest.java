@@ -44,6 +44,7 @@ public class MyTest {
         return answerCombinations;
     }
 
+    // Use -Dwebdriver.chrome.driver="/Users/berkgedik/chromedriver"
     @Test
     public void whenSelectingRandomAnswersTheOutcomeShouldBeEqualToExpectedOutcome()
             throws InterruptedException {
